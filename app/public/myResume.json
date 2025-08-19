@@ -1,0 +1,136 @@
+{
+  "name": "Eva Sokolovsky",
+  "title": "Frontend Developer",
+  "summary": "With over 10 years in web development, I bring expertise in HTML5, CSS,\nand the SASS preprocessor, specializing in responsive, cross-browser, and accessible design with a strong focus on user experience.",
+  "skills": {
+    "languages": [
+      "HTML",
+      "CSS",
+      "SCSS",
+      "JavaScript"
+    ],
+    "frameworks": [
+      "Vue",
+      "React",
+      "Cypress"
+    ],
+    "tools": [
+      "Git",
+      "Azure",
+      "WebStorm",
+      "Vscode",
+      "Shortcut",
+      "Jira",
+      "Asana"
+    ],
+    "designTools": [
+      "Figma",
+      "Adobe XD",
+      "Photoshop"
+    ],
+    "os": [
+      "Windows",
+      "MacOS"
+    ],
+    "concepts": [
+      "UX",
+      "Accessibility"
+    ]
+  },
+  "experience": [
+    {
+      "company": "McCann",
+      "position": "Frontend developer",
+      "startYear": 2024,
+      "endYear": 2025,
+      "description": [
+        "Develop responsive and accessible landing pages using semantic HTML and modern CSS (Flexbox, Grid, custom\nanimations).",
+        "Implement interactive components with vanilla JavaScript.",
+        "Collaborate with design teams to deliver pixel-perfect marketing sites.",
+        "Deploy and manage projects using Azure.",
+        "Use GitLab for version control, code reviews, and team\ncollaboration."
+      ]
+    },
+    {
+      "company": "Class-E",
+      "position": "Frontend developer",
+      "startYear": 2020,
+      "endYear": 2024,
+      "description": [
+        "Develop digital media solutions for the educational sector using HTML5, CSS(SASS), VueJS, and JavaScript.",
+        "Translate XD mockups into responsive, animated websites.",
+        "Mentor team on latest CSS features and design trends.",
+        "Optimize website performance and implement automated testing with Cypress.",
+        "Utilize tools: Webstorm, GitLab, Shortcut, Docker."
+      ]
+    },
+    {
+      "company": "Investing.com",
+      "position": "Frontend developer",
+      "startYear": 2015,
+      "endYear": 2019,
+      "description": [
+        "Frontend developer for a platform offering unlimited access to advanced financial tools, including real-time quotes, interactive charts, a customizable portfolio, and live alerts.",
+        "Developed responsive websites using HTML, CSS(SASS) & JavaScript",
+        "Worked collaboratively with designers to implement website layouts and designs.",
+        "Optimized website performance through code refactoring and reducing page load times.",
+        "Worked with JIRA, GIT, and PHPStorm."
+      ]
+    },
+    {
+      "company": "888 Holdings(Random Logic)",
+      "position": "Frontend developer",
+      "startYear": 2012,
+      "endYear": 2015,
+      "description": [
+        "Developed 100+ highly responsive landing pages for 888Holdings gaming sites, enhancing user engagement.",
+        "Developed responsive websites using HTML, CSS(SASS) and JavaScript.",
+        "Maintenance of the company sites and legacy code."
+      ]
+    },
+    {
+      "company": "IGMD.ltd - online gaming",
+      "position": "Frontend developer",
+      "startYear": 2011,
+      "endYear": 2012,
+      "description": [
+        "Developed the web sites using JavaScript, JQuery, HTML, CSS.",
+        "Developed from scratch the company site and landing pages.",
+        "Developed HTML mails.",
+        "Maintenance of the company sites and legacy code.",
+        "Used Net Beans, Mantis issue tracking."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "startYear": 2020,
+      "endYear": 2020,
+      "courseName": " ReactJs",
+      "place": "Yaniv Arad training labs"
+    },
+    {
+      "startYear": 2009,
+      "endYear": 2011,
+      "courseName": "dot Net",
+      "place": "John-Bryce"
+    },
+    {
+      "startYear": 2007,
+      "endYear": 2008,
+      "courseName": "Webmaster",
+      "place": "John-Bryce"
+    }
+  ],
+  "personalDetails": {
+    "phoneNumber": "0534303673",
+    "email": "ewsik.s@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/eva-sokolovsky/",
+    "address": "Yehud-Monoson, central district"
+  },
+  "languages": [
+    "Hebrew | Advanced",
+    "English | Advanced",
+    "Russian | Native"
+  ]
+}
