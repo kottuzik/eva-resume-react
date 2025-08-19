@@ -1,5 +1,50 @@
 @import url('reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
-.name-text{
-	color: #fff;
+body{
+	font-family: 'Lato', sans-serif; color: #fff;
 }
+.header{
+	text-align: center;
+	
+	line-height: 1.2;
+	letter-spacing: 0.05em;
+	color: #fff;
+	margin-top: 1rem;
+}
+.name-text{
+	font-size: clamp(1rem, 0.2958rem + 2.2535vw, 3rem);
+	font-weight: 700;
+}
+.title-text{
+	font-size: clamp(1rem, 0.2958rem + 1.3647vw, 2.5rem);
+	font-weight: 400; margin-top: 0.4vw;
+}
+.address{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 0.5vw;
+	margin-top: 0.7vw;
+}
+.location-icon{
+	width: 1.5vw;
+	height: 1.5vw;
+}
+
+.loader {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background: 
+    radial-gradient(farthest-side,#ED1EF4 94%,#0000) top/8px 8px no-repeat,
+    conic-gradient(#0000 30%,#ED1EF4);
+  -webkit-mask: radial-gradient(farthest-side,#0000 calc(100% - 8px),#000 0);
+	animation:s3 1s infinite linear;
+	margin-inline: auto;
+	margin-top: 10vw;
+  }
+  
+  @keyframes s3{ 
+	100%{transform: rotate(1turn)}
+  }

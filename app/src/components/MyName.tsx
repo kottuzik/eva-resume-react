@@ -1,16 +1,11 @@
-import React, { useEffect, useState } from 'react';
-import { useResume } from '../ResumeContext';
+import React from 'react';
+import type { ResumeData } from '../ResumeContext';
 
-export const MyName: React.FC = () => {
-  const { data, error } = useResume();
-
-  if (error) return <p>Error: {error}</p>;
-  if (!data) return <div>Loading...</div>;
-
+export const MyName: React.FC<{ data: ResumeData }> = ({ data }) => {
   return (
-    <div>
+    <header className="header">
       <h2 className="name-text">{data.name}</h2>
-      <p>{data.title}</p>
-    </div>
+      <p className="title-text">{data.title}</p>
+    </header>
   );
 };
